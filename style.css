@@ -1,0 +1,404 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+header img{
+    width: 300px;
+}
+
+header input{
+    padding: 10px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.164);
+    border: none;
+}
+
+header .icons{
+    display: flex;
+    gap: 30px;
+}
+
+header .input-area{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header .input-area input{
+position: relative;
+}
+
+header .input-area i{
+    position: absolute;
+    margin: 10px;
+    color: orangered;
+}
+
+.icons i:hover{
+color: orangered;
+cursor: pointer;
+transition: .5s;
+}
+
+.icons span{
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.icons span:hover{
+color: orangered;
+cursor: pointer;
+transition: .5s;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 12px;
+    border-bottom: 1px solid gray;
+}
+
+.categories span{
+    background-color: red;
+    color: white;
+    padding:3px;
+    border-radius: 10px;
+    
+
+}
+
+.categories li{
+    font-family: sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.categories li:hover{
+    color: orangered;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.brands{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.brands img{
+    width: 65px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.brands img:hover{
+    border: 1px solid orangered;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.brands span{
+font-size: 13px;
+font-weight: bold;
+font-family: sans-serif;
+}
+
+.brands span:hover{
+    color: orangered;
+    transition: .5s;
+}
+
+.brands div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.gif{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.gif img{
+    width: 90%;
+}
+
+.titles{
+    display: flex;
+    justify-content: center;
+}
+
+.titles img{
+    width: 400px;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.titles img:hover{
+    scale: 1.03;
+    transition: .3s;
+}
+
+.img-container{
+    display: grid;
+    place-items: center;
+    gap: 20px;
+    margin: 30px;
+    margin-top: 5px;
+    padding: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+.img-container img{
+width: 400px;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.img-container img:hover{
+    border: 1px solid red ;
+    transition: .5s ease-in-out ;
+}
+
+.cards{
+    display: flex;
+    border: 2px solid antiquewhite;
+    /* margin */
+    margin: 30px;
+    background-color: rgba(167, 154, 136, 0.096);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.cards h2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.card-all{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgba(250, 235, 215, 0.313);
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+    width: 240px;
+    border-radius: 10px;
+}
+
+.card-info img{
+    border-radius: 10px;
+    height: 240px;
+    width: 200px;
+    margin: 10px;
+}
+
+.card-info img:hover{
+    scale: 1.03;
+    transition: .5s;
+    cursor: pointer;
+
+}
+
+.card-info .description h4{
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+
+  .card-info .description h5 {
+    color: gray;
+    font-family: sans-serif;
+  }
+
+  .card-info .description{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+
+  .card-info p {
+    color: orangered;
+    display: flex;
+    font-family: sans-serif;
+  }
+
+  .content{
+    font-family: sans-serif;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content h2{
+    margin-bottom: 10px;
+  }
+
+  .content div{
+    margin:20px 20px;
+  }
+
+  .tags{
+    margin: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+  }
+
+.tags a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+
+.tags a:hover{
+    color: orangered;
+    transition: .3s;
+}
+
+.popular{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 30px;
+    gap: 200px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.popular li{
+    list-style: none;
+    padding: 4px;
+    margin: 3px;
+}
+
+.popular li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    background-color: black;
+    color: white;
+    height: 300px;
+}
+
+.foot-title{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+.foot-list{
+    background-color: black;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.foot-list li{
+    padding: 10px;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.foot-list li:hover{
+    cursor: pointer;
+    color: orangered;
+    transition: .3s;
+}
+
+.foot-img img{
+    height: 140px;
+    width: 320px;
+    margin: 20px;
+}
+
+.foot-icons{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 470px;
+    gap: 50px;
+    background-color: black;
+}
+
+.foot-icons i:nth-child(1){
+    color: blue;
+}
+
+.foot-icons i:nth-child(2){
+    color: aqua;
+}
+
+.foot-icons i:nth-child(3){
+    color: purple;
+}
+
+.copyright{
+    position: absolute;
+    margin-bottom: 10px;
+    margin-top: 260px;
+   display: flex;
+   justify-content: space-around;
+   background-color: black;
+}
+
+.copyright p{
+    padding: 9px;
+    font-style: italic;
+}
+
+.copyright-info{
+  display: flex;
+  gap: 30px;
+  color: white;
+}
+
+.copyright-info p{
+    font-style: normal;
+    cursor: pointer;
+}
+
